@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$main-color:#c8deff;
+$bg-img-center:no-repeat center/cover;
+$main-font:"Roboto", sans-serif
+
+body
+{
+    background:linear-gradient(#a5aae9cc , #d8ddd9);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family:$main-font;
+
+}
+
+.card{
+    max-width:280px;
+    background: $main-color;
+    padding:20px;
+    line-height: 24px;
+    margin:8rem;
+    position: relative;
+
+}
+
+.img{
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    right:-20px;
+    bottom:110px;
+}
+.img-one{
+    background: url(img/one.jpg)$bg-img-center;
+
+}
+.img-two{
+    background: url(img/two.jpg)$bg-img-center;
+
+}
+.img-three{
+    background: url(img/three.jpg)$bg-img-center;
+
+}
+.img-four{
+    background: url(img/four.jpg)$bg-img-center;
+}
