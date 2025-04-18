@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 15px;
+    font-family: sans-serif;
+    width:100%;
+    background-color: cadetblue;
+    .logo-container{
+        margin-left:40px;
+    }
+    ul{
+        margin-right:40px;
+    }
+    li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 30px;
+        position: relative;
+        left:-100px;
+    }
+    a{
+        text-decoration: none;
+        color:#fff;
+    }
+    a:hover{
+        border-bottom: 2px solid white;
+    }
+}

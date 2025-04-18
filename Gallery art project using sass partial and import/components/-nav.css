@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 15px;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: cadetblue;
+}
+nav .logo-container {
+  margin-left: 40px;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  left: -100px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+nav a:hover {
+  border-bottom: 2px solid white;
+}/*# sourceMappingURL=-nav.css.map */
