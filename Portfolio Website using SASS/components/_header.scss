@@ -1,0 +1,62 @@
+.frame-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+
+    .gradient{
+        width:72%;
+        height:76%;
+        position:absolute;
+        bottom:74px;
+        background:linear-gradient(to left, #35d08f,#e32e64);
+        border-radius:10px;
+    }
+
+    header{
+        width:70%;
+        height:90%;
+        margin-top:2rem;
+        background-image: url("img/mypic1.png");
+        position: relative;
+        background-size: cover;
+        background-position: 20 360px;
+        background-repeat: no-repeat;
+        top:35px;
+
+        @media screen and (max-width:700px){
+            background-position: center;
+        }
+        .social{
+            height:100%;
+            width:10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          margin-left: 10px;
+          text-align: center;
+         .fa-brands{
+            margin-bottom:20px;
+         }
+
+       
+          .line{
+            margin:0 auto;
+            width:4px;
+            border-radius: 10px;
+            height:20%;
+            background: #ae81bf;
+            margin-bottom: 20px;
+          }
+        }
+        h1{
+            margin-left: 50px;
+            color:white;
+            font-size: 5rem;
+            font-family:sans-serif;
+            font-weight: normal;
+            transform: translateY(-50px);
+         }
+    }
+    
+}
